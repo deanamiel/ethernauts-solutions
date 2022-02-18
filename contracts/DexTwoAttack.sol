@@ -50,7 +50,7 @@ contract SwappableTokenTwo is ERC20 {
   }
 }
 
-//only smart contract we need, the rest is one from truffle console
+//only smart contract we need, the rest is done from truffle console
 contract AttackCoin is ERC20 {
 
     constructor(string memory name, string memory symbol, uint initialSupply) public ERC20(name, symbol) {
